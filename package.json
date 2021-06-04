@@ -1,0 +1,13 @@
+{
+  "name": "infinimesh-ts",
+  "version": "1.0.0",
+  "description": "infinimesh SDK in Typescript",
+  "main": "index.ts",
+  "repository": "https://github.com/slntopp/infinimesh-ts.git",
+  "author": "Mik <info@slnt-opp.xyz>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
