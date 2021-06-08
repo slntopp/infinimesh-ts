@@ -33,7 +33,10 @@ export class Client {
         return new Client({endpoint: credentials.endpoint, token: response.data.token});
     }
 
-    call(request: PoolRequest): AxiosPromise<any> {
-        return axios(request)
+    async self(): Promise<Account> {
+        return new Account((await this.call<Account>({
+            url: '/account',
+            method: 'GET'
+        })).data)
     }
 }
