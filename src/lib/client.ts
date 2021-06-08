@@ -7,7 +7,7 @@ interface JWTClient {
     token: string
 }
 
-interface TokenRequest {
+export interface TokenRequest {
     readonly endpoint: string,
     readonly username: string,
     readonly password: string,
