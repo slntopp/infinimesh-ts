@@ -1,5 +1,5 @@
 {
-  "name": "infinimesh-ts",
+  "name": "infinimesh",
   "version": "1.0.0",
   "description": "infinimesh SDK in Typescript",
   "main": "dist/index.js",
