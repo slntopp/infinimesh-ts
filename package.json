@@ -2,7 +2,11 @@
   "name": "infinimesh-ts",
   "version": "1.0.0",
   "description": "infinimesh SDK in Typescript",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "repository": "https://github.com/slntopp/infinimesh-ts.git",
   "author": "Mik <info@slnt-opp.xyz>",
   "license": "MIT",
